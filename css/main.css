@@ -1,0 +1,7 @@
+body {
+  background: #f0a7c2;
+}
+p > span {
+  color: #d90866;
+  font-size: 22px;
+}
