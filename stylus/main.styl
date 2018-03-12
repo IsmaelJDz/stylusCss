@@ -1,10 +1,28 @@
-//variable
-background-app = #F0A7C2
-color-letter = #D90866
-font-sizer = 22px 
+@import "_variables.styl"
+
+mixin-max-width()
+	max-width 800px
+	margin-left auto
+	margin-right auto
+	
+.container
+	mixin-max-width()
+	
+.section
+	margin-bottom 10px
+	mixin-max-width()		
 
 body
-	background background-app
+	background-color background-app
+	
+	.main
+		background-color #DE6394
+		border 1px solid #4c4646
+		width 50px
+		display inline-block
+		&.main--secondary
+			background-color #A30941
+			border-radius 3 px
 
 p > span
 	color color-letter

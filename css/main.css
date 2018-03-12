@@ -1,5 +1,26 @@
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section {
+  margin-bottom: 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
 body {
-  background: #f0a7c2;
+  background-color: #f0a7c2;
+}
+body .main {
+  background-color: #de6394;
+  border: 1px solid #4c4646;
+  width: 50px;
+  display: inline-block;
+}
+body .main.main--secondary {
+  background-color: #a30941;
+  border-radius: 3px;
 }
 p > span {
   color: #d90866;
