@@ -1,16 +1,16 @@
 @import "_variables.styl"
 
-mixin-max-width()
-	max-width 800px
+mixin-max-width(width)
+	max-width width
 	margin-left auto
 	margin-right auto
 	
 .container
-	mixin-max-width()
+	mixin-max-width(800px)
 	
 .section
 	margin-bottom 10px
-	mixin-max-width()		
+	mixin-max-width(10px)		
 
 body
 	background-color background-app
@@ -23,6 +23,8 @@ body
 		&.main--secondary
 			background-color #A30941
 			border-radius 3 px
+			& .blocTwo
+				font-size valone + valtwo
 
 p > span
 	color color-letter

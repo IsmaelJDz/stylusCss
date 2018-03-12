@@ -5,7 +5,7 @@
 }
 .section {
   margin-bottom: 10px;
-  max-width: 800px;
+  max-width: 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -21,6 +21,9 @@ body .main {
 body .main.main--secondary {
   background-color: #a30941;
   border-radius: 3px;
+}
+body .main.main--secondary .blocTwo {
+  font-size: 22px;
 }
 p > span {
   color: #d90866;
