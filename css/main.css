@@ -29,3 +29,6 @@ p > span {
   color: #d90866;
   font-size: 22px;
 }
+.container {
+  padding: 60px 20px;
+}

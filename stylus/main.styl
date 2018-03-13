@@ -1,5 +1,6 @@
 @import "_variables.styl"
 
+
 mixin-max-width(width)
 	max-width width
 	margin-left auto
@@ -29,3 +30,12 @@ body
 p > span
 	color color-letter
 	font-size font-sizer
+	
+box(x,y, margin-only = true)
+	if margin-only
+		margin x y
+	else
+		padding x y
+		
+.container
+	box(60px, 20px, false)		  
