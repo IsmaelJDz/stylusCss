@@ -38,4 +38,23 @@ box(x,y, margin-only = true)
 		padding x y
 		
 .container
-	box(60px, 20px, false)		  
+	box(60px, 20px, false)
+	
+gridsize = (1..4)
+	
+.grid
+	display flex
+	flex-grap wrap
+	position relative
+	justify-content flex-start
+	flex-direction row	
+
+[class^="grid--item"]
+	flex-shrink 0
+	margin-right 12px
+	flex-grow 1
+	
+for i in gridsize
+	.grid-item-{i}
+		width (100 / i) * 1%
+	

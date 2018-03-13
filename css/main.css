@@ -32,3 +32,27 @@ p > span {
 .container {
   padding: 60px 20px;
 }
+.grid {
+  display: flex;
+  flex-grap: wrap;
+  position: relative;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+[class^="grid--item"] {
+  flex-shrink: 0;
+  margin-right: 12px;
+  flex-grow: 1;
+}
+.grid-item-1 {
+  width: 100%;
+}
+.grid-item-2 {
+  width: 50%;
+}
+.grid-item-3 {
+  width: 33.333333333333336%;
+}
+.grid-item-4 {
+  width: 25%;
+}
